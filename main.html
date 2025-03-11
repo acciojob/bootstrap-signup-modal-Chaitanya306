@@ -8,6 +8,36 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 	</head>
 	<body>
-	
+		<!-- Button trigger modal -->
+<button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  Sign Up
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalLabel">Create Account</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+	      <label for="username">Email address</label><br>
+		  <input type="email" id="username"  placeholder="Enter email"><br>  
+	      <p>our information is safe with us.</p>
+		  <label for="password">Password</label><br>
+		  <input type="password" id="password"  placeholder="Password"><br>
+	  
+		  <label for="password">Confirm Password</label><br>
+		  <input type="password" id="password"  placeholder="Confirm Password"><br>
+	  </div>
+      <div class="modal-footer">
+        <button type="submit" class="btn btn-success" data-bs-dismiss="modal">Submit</button>
+        
+      </div>
+    </div>
+  </div>
+</div>
+		
 	</body>
 </html>
